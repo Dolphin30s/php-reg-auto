@@ -1,0 +1,123 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.Head_text{
+    z-index: 1;
+    width: 280px;
+    position: absolute;
+    top: 116px;
+    left: 41.2%;
+    background-color: white;
+    height: 40px;
+}
+.Head_text_sign{
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    top: 116px;
+    left: 41.5%;
+    background-color: white;
+    height: 40px;
+}
+h2{
+    color: crimson;
+    text-align: center;
+    font-family: "Century Gothic";
+}
+.forma{
+    position: relative;
+    z-index: 0;
+    max-width: 400px;
+    height: 650px;
+    margin: 150px auto;
+    border: 4px solid crimson;
+    border-radius: 30px 80px 30px 80px;
+    position: relative;
+}
+.forma_sign{
+    position: relative;
+    z-index: 0;
+    max-width: 400px;
+    height: 350px;
+    margin: 150px auto;
+    border: 4px solid crimson;
+    border-radius: 30px 80px 30px 80px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+input{
+    height: 40px;
+    margin: 17px 0px;
+    width: 300px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+    outline: none;
+    font-family: "Century Gothic";
+}
+button{
+    margin: 15px 0px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: lightcoral;
+    border: 2px solid crimson;
+    color: white;
+    font-size: 16px;
+    font-family: "Century Gothic";
+}
+button:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+p{
+    margin: 0px;
+    font-family: "Century Gothic";
+}
+.text{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: "Century Gothic";
+    text-align: center;
+}
+a{
+   color: crimson;
+   text-decoration: none;
+   font-size: 18px;
+}
+.msg{
+    position: absolute;
+    top:15px;
+    left: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    font-family: "Century Gothic";
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.msg_reg{
+    position: absolute;
+    top:15px;
+    left: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    font-family: "Century Gothic";
+    border-bottom: 3px solid green;
+    font-weight: bold;
+    font-size: 25px;
+    color: green;
+}
